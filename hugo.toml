@@ -1,0 +1,38 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'CamunasLab'
+theme = 'gohugo-theme-ananke'
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+  [languages.en]
+    title = "CamunasLab"
+    weight = 1
+    contentDir = "content/en"
+    # languageDirection = 'rtl' for Right-To-Left languages
+
+[params.navigation]
+    #other stuff
+    #logo = "/images/test1.png"
+
+[services.disqus]
+    shortname = 'YOURSHORTNAME'
+
+
+[params]
+    commentoEnable = true
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://x.com/Camunaslab"
